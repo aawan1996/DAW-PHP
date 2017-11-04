@@ -1,0 +1,19 @@
+En este proyecto vamos a trabajar todo lo aprendido hasta ahora. Para ello se os pide que realicéis una web con control de usuarios.
+
+Los usuarios válidos los leerá de un fichero en el servidor, usuarios.txt, donde estarán guardadas una serie de duplas: usuario-contraseña.
+
+ La web tendrá una página inicial con las siguientes opciones:
+
+1 – Crear usuario nuevo.
+
+2 – Iniciar Sesión.
+
+
+
+ En el caso de usuario nuevo, se guardará la relación usuario-contraseña, en el fichero de contraseñas. Además se le pedirá que suba una foto suya al servidor. Además en un fichero del tipo “nombreusuario.txt”, almacenará el nombre, dirección, número de tarjeta de crédito (los campos separados por saltos de carro).
+
+En el caso de iniciar sesión, mostrará en una página con todos los datos del usuario almacenados en su fichero, y mostrará su fotografía. Todos estos datos se mostraran en un formulario, donde el usuario podrá modificar estos datos. Tendrá dos botones. Uno para guardar, y otro para cerrar sesión.
+
+El de guardar, remitirá a otro archivo php que mostrará el mensaje “Datos guardados con éxito”, y mostrará toda la información guardada, y luego tendrá la posibilidad de cerrar sesión, o de volver a modificar datos.
+
+Al finalizar sesión, siempre volverá al primer archivo “index.php” del proyecto.
