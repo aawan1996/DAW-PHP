@@ -1,0 +1,6 @@
+mizuno 7
+adidas 20
+nike 47
+LaSportiva 13
+Brooks 8
+NewBalance 10

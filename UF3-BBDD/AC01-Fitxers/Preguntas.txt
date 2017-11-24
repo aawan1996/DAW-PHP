@@ -1,0 +1,20 @@
+AC01 - FITXERS
+
+
+PROBLEMA 1 - QUINIELA DEPORTIVA.
+
+           El Estado os ha contratado para hacer la página de “loterías y apuestas”. Esta página web costará de dos archivos:
+
+apuestas.php: Leerá    el fichero adjunto con los partidos de esta semana, y los mostrará en un formulario. El cliente indicará su nombre y dni, y el resultado que quiere para cada partido y le dará a un botón “apostar”. Este enviará a través de GET los datos de las apuestas.
+
+
+MiApuesta.php: Generará un fichero con dos líneas, en la primera los datos del cliente. En la segunda la apuesta separada por espacios. Mostrará un mensaje de tipo “Sr Pepito, su apuesta se ha realizado con éxito”.
+
+PROBLEMA 2 – TIENDA ZAPATILLAS. 
+
+           En el Barrio de Sants van a inaugurar una gran tienda especializada en zapatillas. Se os pide que desarrolléis una parte de la página web. Básicamente la parte encargada del stock. La parte que tenéis que programar consta de dos páginas:
+
+Cliente.php. Leerá de un fichero stock, el stock de productos (suponemos que solamente tienen los artículos indicados, no más). Mostrará los productos por pantalla, y a través del formulario pedirá la cantidad a pedir al almacén.
+
+
+Pedido.php. Recibirá de cliente.php, el CodCli (código cliente) y cantidades a pedir (del artículo que no pidan, lo recibirá con stock 0. Finalmente, generará un fichero con el pedido, y lo mostrará por pantalla. LA primera línea será el número cliente, y en las demás líneas, separadas por espacio, irá producto cantidad.
